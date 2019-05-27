@@ -5,7 +5,13 @@
   <div>
     <h2>Search results for "{{ query }}"</h2>
     <hr><br>
+    <!--
     {{ results}}
+    <img src={{ results[0]}}>  -->    
+      {% for name in results %}
+      <img src={{ name }}>
+      {% endfor %}
+      
   </div>
 </div>
 
