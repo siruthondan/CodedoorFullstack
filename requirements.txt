@@ -5,5 +5,5 @@ Flask-Bcrypt==0.7.1
 Flask-Bootstrap==3.3.7.1
 Flask-DebugToolbar==0.10.1
 Flask-Testing==0.7.1
-requests==2.19.1
+requests==2.20.0
 Flask-WTF==0.14.2
